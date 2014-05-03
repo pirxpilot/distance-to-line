@@ -13,7 +13,7 @@ function sqr(x) {
 }
 
 function p2p_2(p, q) {
-	return sqr(p[0] - q[0]) + sqr(p[1] - q(1));
+	return sqr(p[0] - q[0]) + sqr(p[1] - q[1]);
 }
 
 function p2p(p, q) {

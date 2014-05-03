@@ -8,7 +8,7 @@ test:
 	$(NODE_BIN)/mocha --require should
 
 lint:
-	$(NODE_BIN)/jshint index.js
+	$(NODE_BIN)/jshint index.js test
 
 build: components index.js
 	$(NODE_BIN)/component build --dev
@@ -19,4 +19,4 @@ components: component.json
 clean:
 	rm -fr build components
 
-.PHONY: clean lint
+.PHONY: clean lint test check all
