@@ -1,0 +1,17 @@
+{
+  "name": "distance",
+  "repo": "code42day/distance",
+  "description": "Calculate distance from a point to a line",
+  "version": "0.0.1",
+  "keywords": [
+    "projection",
+    "distance"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
