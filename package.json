@@ -1,0 +1,33 @@
+{
+  "name": "code42day-distance",
+  "version": "0.0.0",
+  "description": "Calculate distance from a point to a line",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:code42day/distance.git"
+  },
+  "keywords": [
+    "projection",
+    "polyline",
+    "point"
+  ],
+  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code42day/distance/issues"
+  },
+  "homepage": "https://github.com/code42day/distance",
+  "devDependencies": {
+    "should": "~3",
+    "mocha": "~1",
+    "jshint": "~2",
+    "component": "~0"
+  }
+}
