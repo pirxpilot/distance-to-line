@@ -1,6 +1,6 @@
 {
   "name": "code42day-distance",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Calculate distance from a point to a line",
   "main": "index.js",
   "directories": {

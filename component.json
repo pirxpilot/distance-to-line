@@ -2,7 +2,7 @@
   "name": "distance",
   "repo": "code42day/distance",
   "description": "Calculate distance from a point to a line",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [
     "projection",
     "distance"
