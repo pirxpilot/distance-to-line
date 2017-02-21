@@ -1,13 +1,13 @@
 
-# distance
+# distance-to-line
 
   Calculate Distance from a point to a line
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+Install with [npm(1)](https://www.npmjs.com):
 
-    $ component install code42day/distance
+    $ npm install --save distance-to-line
 
 ## API
 

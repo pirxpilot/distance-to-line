@@ -8,15 +8,18 @@ test:
 	$(NODE_BIN)/mocha --require should
 
 lint:
-	$(NODE_BIN)/jshint index.js test
+  jshint index.js
 
-build: components index.js
-	$(NODE_BIN)/component build --dev
+build: build/build.js
 
-components: component.json
-	$(NODE_BIN)/component install --dev
+build/build.js: node_modules index.js
+  mkdir -p build
+  browserify --require ./index.js:$(PROJECT) --outfile $@
+
+node_modules: package.json
+  npm install
 
 clean:
-	rm -fr build components
+  rm -fr build node_modules
 
 .PHONY: clean lint test check all
